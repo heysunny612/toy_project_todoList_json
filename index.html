@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>To do list</title>
+    <link rel="stylesheet" href="./utils/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <h2>TO DO LIST</h2>
+
+        <form class="todo_form">
+          <input
+            type="text"
+            class="todo_input"
+            placeholder="할 일을 입력해 주세요."
+            autofocus="true"
+          />
+          <button type="submit" class="todo_submit_button">
+            <i class="fas fa-plus"></i>
+          </button>
+        </form>
+      </div>
+      <div class="todos">
+        <!--<div class="item">
+          <div class="content">
+            <input type="checkbox" class="todo_checkbox" ${isChecked} />
+            <label>${content}</label>
+            <input type="text" value="${content}" />
+          </div>
+          <div class="item_buttons content_buttons">
+            <button class="todo_edit_button">
+              <i class="far fa-edit"></i>
+            </button>
+            <button class="todo_remove_button">
+              <i class="far fa-trash-alt"></i>
+            </button>
+          </div>
+          <div class="item_buttons edit_buttons">
+            <button class="todo_edit_confirm_button">
+              <i class="fas fa-check"></i>
+            </button>
+            <button class="todo_edit_cancel_button">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>-->
+      </div>
+      <div class="pagination"></div>
+    </div>
+  </body>
+</html>
